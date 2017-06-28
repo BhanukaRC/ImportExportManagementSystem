@@ -1,0 +1,11 @@
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\bin\Debug\ImportExportManagement.exe.config
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\bin\Debug\ImportExportManagement.exe
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\bin\Debug\ImportExportManagement.pdb
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\bin\Debug\MySql.Data.dll
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\bin\Debug\MySql.Data.xml
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.csprojResolveAssemblyReference.cache
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.Form1.resources
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.Properties.Resources.resources
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.csproj.GenerateResource.Cache
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.exe
+C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.pdb
