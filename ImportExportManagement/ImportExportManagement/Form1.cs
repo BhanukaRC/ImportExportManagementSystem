@@ -30,36 +30,23 @@ namespace ImportExportManagement
 
         private void Submit_Click(object sender, EventArgs e)
         {
-            using (MySqlConnection connection = DatabaseAccess.getConnection())
-            {
-
-                MySqlCommand command = new MySqlCommand();
-                command.CommandText = "INSERT into JobInfo (JobID, Weight,Import/Export) VALUES (5, 12.0,import)";
-             
-                command.CommandType = CommandType.Text;
-                command.Connection = connection;
-                try
-                {
-                    connection.Open();
-                    Console.WriteLine("ffffffffff");
-                    command.ExecuteNonQuery();
-
-                }
-
-                catch (Exception j)
-                {
-                    Console.WriteLine(j.Message);
-                }
-                finally { connection.Close(); }
-                
-                
-
-            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnnext_Click(object sender, EventArgs e)
+        {
+            ShipmentDetails shipmentdetails = new ShipmentDetails();
+            shipmentdetails.Show();
+            this.Hide();
         }
     }
 }
