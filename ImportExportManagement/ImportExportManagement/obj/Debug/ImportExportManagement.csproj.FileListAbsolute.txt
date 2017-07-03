@@ -9,3 +9,17 @@ C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\Im
 C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.csproj.GenerateResource.Cache
 C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.exe
 C:\Users\Bhanuka\Documents\Visual Studio 2017\Projects\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.pdb
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\bin\Debug\ImportExportManagement.exe.config
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\bin\Debug\ImportExportManagement.exe
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\bin\Debug\ImportExportManagement.pdb
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\bin\Debug\MySql.Data.xml
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.csprojResolveAssemblyReference.cache
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.Form1.resources
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.OverseasDepartment.resources
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.Properties.Resources.resources
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.Search.resources
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.SelectionMenu_Clerks.resources
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.ShipmentDetails.resources
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.csproj.GenerateResource.Cache
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.exe
+C:\Users\Koumudi\Documents\GitHub\ImportExportManagementSystem\ImportExportManagement\ImportExportManagement\obj\Debug\ImportExportManagement.pdb

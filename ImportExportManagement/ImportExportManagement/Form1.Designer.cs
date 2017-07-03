@@ -40,18 +40,20 @@
             this.tbSLName = new System.Windows.Forms.TextBox();
             this.tbCFName = new System.Windows.Forms.TextBox();
             this.tbCLName = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.chkImport = new System.Windows.Forms.CheckBox();
-            this.chkExport = new System.Windows.Forms.CheckBox();
             this.cmbairsea = new System.Windows.Forms.ComboBox();
-            this.chkfcl = new System.Windows.Forms.CheckBox();
-            this.chklcl = new System.Windows.Forms.CheckBox();
             this.label11 = new System.Windows.Forms.Label();
             this.cmbtype = new System.Windows.Forms.ComboBox();
             this.btnnext = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.rdbexport = new System.Windows.Forms.RadioButton();
+            this.rdbimport = new System.Windows.Forms.RadioButton();
+            this.rdbfcl = new System.Windows.Forms.RadioButton();
+            this.rdblcl = new System.Windows.Forms.RadioButton();
+            this.lbldate = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -125,6 +127,7 @@
             this.tbJobID.Name = "tbJobID";
             this.tbJobID.Size = new System.Drawing.Size(100, 20);
             this.tbJobID.TabIndex = 7;
+            this.tbJobID.TextChanged += new System.EventHandler(this.tbJobID_TextChanged);
             // 
             // tbSFName
             // 
@@ -132,6 +135,7 @@
             this.tbSFName.Name = "tbSFName";
             this.tbSFName.Size = new System.Drawing.Size(100, 20);
             this.tbSFName.TabIndex = 8;
+            this.tbSFName.TextChanged += new System.EventHandler(this.tbSFName_TextChanged);
             // 
             // tbSLName
             // 
@@ -139,6 +143,7 @@
             this.tbSLName.Name = "tbSLName";
             this.tbSLName.Size = new System.Drawing.Size(100, 20);
             this.tbSLName.TabIndex = 9;
+            this.tbSLName.TextChanged += new System.EventHandler(this.tbSLName_TextChanged);
             // 
             // tbCFName
             // 
@@ -146,6 +151,7 @@
             this.tbCFName.Name = "tbCFName";
             this.tbCFName.Size = new System.Drawing.Size(100, 20);
             this.tbCFName.TabIndex = 10;
+            this.tbCFName.TextChanged += new System.EventHandler(this.tbCFName_TextChanged);
             // 
             // tbCLName
             // 
@@ -153,14 +159,7 @@
             this.tbCLName.Name = "tbCLName";
             this.tbCLName.Size = new System.Drawing.Size(100, 20);
             this.tbCLName.TabIndex = 11;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(125, 54);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 13;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tbCLName.TextChanged += new System.EventHandler(this.tbCLName_TextChanged);
             // 
             // label8
             // 
@@ -183,32 +182,12 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(32, 182);
+            this.label10.Location = new System.Drawing.Point(35, 11);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(71, 13);
             this.label10.TabIndex = 15;
             this.label10.Text = "Import/Export";
             this.label10.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // chkImport
-            // 
-            this.chkImport.AutoSize = true;
-            this.chkImport.Location = new System.Drawing.Point(122, 181);
-            this.chkImport.Name = "chkImport";
-            this.chkImport.Size = new System.Drawing.Size(55, 17);
-            this.chkImport.TabIndex = 19;
-            this.chkImport.Text = "Import";
-            this.chkImport.UseVisualStyleBackColor = true;
-            // 
-            // chkExport
-            // 
-            this.chkExport.AutoSize = true;
-            this.chkExport.Location = new System.Drawing.Point(269, 178);
-            this.chkExport.Name = "chkExport";
-            this.chkExport.Size = new System.Drawing.Size(56, 17);
-            this.chkExport.TabIndex = 20;
-            this.chkExport.Text = "Export";
-            this.chkExport.UseVisualStyleBackColor = true;
             // 
             // cmbairsea
             // 
@@ -216,30 +195,14 @@
             "Air",
             "Sea"});
             this.cmbairsea.FormattingEnabled = true;
+            this.cmbairsea.Items.AddRange(new object[] {
+            "Air",
+            "Sea"});
             this.cmbairsea.Location = new System.Drawing.Point(122, 219);
             this.cmbairsea.Name = "cmbairsea";
             this.cmbairsea.Size = new System.Drawing.Size(100, 21);
             this.cmbairsea.TabIndex = 21;
-            // 
-            // chkfcl
-            // 
-            this.chkfcl.AutoSize = true;
-            this.chkfcl.Location = new System.Drawing.Point(269, 221);
-            this.chkfcl.Name = "chkfcl";
-            this.chkfcl.Size = new System.Drawing.Size(45, 17);
-            this.chkfcl.TabIndex = 22;
-            this.chkfcl.Text = "FCL";
-            this.chkfcl.UseVisualStyleBackColor = true;
-            // 
-            // chklcl
-            // 
-            this.chklcl.AutoSize = true;
-            this.chklcl.Location = new System.Drawing.Point(375, 218);
-            this.chklcl.Name = "chklcl";
-            this.chklcl.Size = new System.Drawing.Size(45, 17);
-            this.chklcl.TabIndex = 23;
-            this.chklcl.Text = "LCL";
-            this.chklcl.UseVisualStyleBackColor = true;
+            this.cmbairsea.SelectedIndexChanged += new System.EventHandler(this.cmbairsea_SelectedIndexChanged);
             // 
             // label11
             // 
@@ -255,14 +218,17 @@
             this.cmbtype.AutoCompleteCustomSource.AddRange(new string[] {
             "Air",
             "Sea"});
+            this.cmbtype.Enabled = false;
             this.cmbtype.FormattingEnabled = true;
             this.cmbtype.Location = new System.Drawing.Point(122, 257);
             this.cmbtype.Name = "cmbtype";
             this.cmbtype.Size = new System.Drawing.Size(100, 21);
             this.cmbtype.TabIndex = 25;
+            this.cmbtype.SelectedIndexChanged += new System.EventHandler(this.cmbtype_SelectedIndexChanged);
             // 
             // btnnext
             // 
+            this.btnnext.Enabled = false;
             this.btnnext.Location = new System.Drawing.Point(400, 301);
             this.btnnext.Name = "btnnext";
             this.btnnext.Size = new System.Drawing.Size(75, 23);
@@ -271,23 +237,89 @@
             this.btnnext.UseVisualStyleBackColor = true;
             this.btnnext.Click += new System.EventHandler(this.btnnext_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.rdbexport);
+            this.panel1.Controls.Add(this.rdbimport);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Location = new System.Drawing.Point(-2, 173);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(491, 39);
+            this.panel1.TabIndex = 27;
+            // 
+            // rdbexport
+            // 
+            this.rdbexport.AutoSize = true;
+            this.rdbexport.Location = new System.Drawing.Point(271, 7);
+            this.rdbexport.Name = "rdbexport";
+            this.rdbexport.Size = new System.Drawing.Size(55, 17);
+            this.rdbexport.TabIndex = 22;
+            this.rdbexport.TabStop = true;
+            this.rdbexport.Text = "Export";
+            this.rdbexport.UseVisualStyleBackColor = true;
+            this.rdbexport.CheckedChanged += new System.EventHandler(this.rdbexport_CheckedChanged);
+            // 
+            // rdbimport
+            // 
+            this.rdbimport.AutoSize = true;
+            this.rdbimport.Location = new System.Drawing.Point(127, 7);
+            this.rdbimport.Name = "rdbimport";
+            this.rdbimport.Size = new System.Drawing.Size(54, 17);
+            this.rdbimport.TabIndex = 21;
+            this.rdbimport.TabStop = true;
+            this.rdbimport.Text = "Import";
+            this.rdbimport.UseVisualStyleBackColor = true;
+            this.rdbimport.CheckedChanged += new System.EventHandler(this.rdbimport_CheckedChanged);
+            // 
+            // rdbfcl
+            // 
+            this.rdbfcl.AutoSize = true;
+            this.rdbfcl.Enabled = false;
+            this.rdbfcl.Location = new System.Drawing.Point(269, 222);
+            this.rdbfcl.Name = "rdbfcl";
+            this.rdbfcl.Size = new System.Drawing.Size(44, 17);
+            this.rdbfcl.TabIndex = 23;
+            this.rdbfcl.TabStop = true;
+            this.rdbfcl.Text = "FCL";
+            this.rdbfcl.UseVisualStyleBackColor = true;
+            this.rdbfcl.CheckedChanged += new System.EventHandler(this.rdbfcl_CheckedChanged);
+            // 
+            // rdblcl
+            // 
+            this.rdblcl.AutoSize = true;
+            this.rdblcl.Enabled = false;
+            this.rdblcl.Location = new System.Drawing.Point(375, 222);
+            this.rdblcl.Name = "rdblcl";
+            this.rdblcl.Size = new System.Drawing.Size(44, 17);
+            this.rdblcl.TabIndex = 28;
+            this.rdblcl.TabStop = true;
+            this.rdblcl.Text = "LCL";
+            this.rdblcl.UseVisualStyleBackColor = true;
+            this.rdblcl.CheckedChanged += new System.EventHandler(this.rdblcl_CheckedChanged);
+            // 
+            // lbldate
+            // 
+            this.lbldate.AutoSize = true;
+            this.lbldate.Location = new System.Drawing.Point(122, 57);
+            this.lbldate.Name = "lbldate";
+            this.lbldate.Size = new System.Drawing.Size(0, 13);
+            this.lbldate.TabIndex = 29;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(490, 336);
+            this.Controls.Add(this.lbldate);
+            this.Controls.Add(this.rdblcl);
+            this.Controls.Add(this.rdbfcl);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnnext);
             this.Controls.Add(this.cmbtype);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.chklcl);
-            this.Controls.Add(this.chkfcl);
             this.Controls.Add(this.cmbairsea);
-            this.Controls.Add(this.chkExport);
-            this.Controls.Add(this.chkImport);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.tbCLName);
             this.Controls.Add(this.tbCFName);
             this.Controls.Add(this.tbSLName);
@@ -302,6 +334,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Job Card";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,18 +355,19 @@
         private System.Windows.Forms.TextBox tbSLName;
         private System.Windows.Forms.TextBox tbCFName;
         private System.Windows.Forms.TextBox tbCLName;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.CheckBox chkImport;
-        private System.Windows.Forms.CheckBox chkExport;
         private System.Windows.Forms.ComboBox cmbairsea;
-        private System.Windows.Forms.CheckBox chkfcl;
-        private System.Windows.Forms.CheckBox chklcl;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cmbtype;
         private System.Windows.Forms.Button btnnext;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.RadioButton rdbexport;
+        private System.Windows.Forms.RadioButton rdbimport;
+        private System.Windows.Forms.RadioButton rdbfcl;
+        private System.Windows.Forms.RadioButton rdblcl;
+        private System.Windows.Forms.Label lbldate;
     }
 }
 
